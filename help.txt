@@ -1,0 +1,18 @@
+Trials and notes I made to reach the conclustion for perfect selector.
+//td[@id="an3"]/parent::tr/following-sibling::tr[3]/td[2]/input
+//td[@id="an2"]/parent::tr/following-sibling::tr[3]/td[2]/a/strong/span
+//td[@id="an2"]//parent::tr//following-sibling::tr[3]//child::td[2]//a//strong//span
+//td[@id="an2"]//parent::tr//following-sibling::tr[3]
+//span[text()="Registered!"]
+//td[contains(text(), "4:25")]
+//td//tr[@class="evenRow"][1]//td[2]//input
+//input[@value="Sign Up Now"]//..//preceding-sibling::td
+//b//parent::td//../following-sibling::tr[3]
+//input[@value="Sign Up Now"]
+var btag = document.getElementsByTagName('b')
+btag[1].innerText.includes("June 15")
+btag[2].parentElement.parentElement.nextElementSibling.nextElementSibling.nextElementSibling.children[1].textContent
+
+For Scheduling script on windows like cron job:
+https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10
+https://datatofish.com/python-script-windows-scheduler/
